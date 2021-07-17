@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown');
 // const generateMarkdown = require('./utils/generateMarkdown');
 //console.log("Hey")
 // TODO: Create an array of questions for user input
@@ -29,7 +30,7 @@ function init() {
         {
             type:'input',
             message:questions[2],
-            name:'prerequisited'
+            name:'prerequisite'
         },
         {
             type:'input',
@@ -64,8 +65,8 @@ function init() {
     ]).then((response)=>{
         // generateMarkdown(response);
         console.log(response)
-        const readMEdata = response.author;
-         writeToFile('readMe.md',readMEdata);
+        // generateMarkdown(response);
+         writeToFile('readMe.md',generateMarkdown(response));
     }
    
 
