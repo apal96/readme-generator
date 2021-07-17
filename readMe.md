@@ -1,58 +1,59 @@
-# title
+# ReadMe Generator
+  ## Project Description
+  This project will generate a markdown file
 
-  bio data description
-  
+  ## Table of Contents
+  1. [Getting Started](#getting-started)
+  2. [Installation](#Installation)
+  3. [Usage](#Usage)
+  4. [Built With](#Built-with)
+  5. [Deployed Link](#Deployed-Link)
+  6. [License](#License)
+  7. [Acknowledgments](#Acknowledgments)
+  8. [Tests](#Tests)
+  9. [Contributors](#Contributors)
+
   ## Getting Started
   
   These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
   
-  ### Prerequisites
+  ### Installation
+  Need node.js
   
-  none
-  
-
-  ### Installing
-  
-  A step by step series of examples that tell you how to get a development environment running.
-  
-  Say what the step will be:
-  
-  
-  
-  And repeat
-  
- 
-  End with an example of getting some data out of the system or using it for a little demo.
-  
+  ### Usage
+  Can be used to generate a readme.md
   
   ## Built With
+
+  HTML,Javascript,CSS
   
-  * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-  * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-  * [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
   
   ## Deployed Link
   
-  * [See Live Site](#)
+  * [pal@apal.com](#)
   
-  
-  ## Authors
-  
-  * **YOUR NAME** 
-  
-  - [Link to Portfolio Site](#)
-  - [Link to Github](https://github.com/)
-  - [Link to LinkedIn](https://www.linkedin.com/)
-  
-  See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
   
   ## License
   
-  This project is licensed under the MIT License 
+  This project is licensed under the MIT license.
   
   ## Acknowledgments
+  no
+
+  ## Tests
+  none
   
-  * Hat tip to anyone whose code, libraries, packages, or UI was used  / inspired from
-  * Inspiration
-  * etc
+  ## Contributors
+  
+  **Alisha Pal** 
+  
+  - Portfolio: [https://apal96.github.io/alisha-portfolio/](#)
+  - Github: [https://github.com/apal96](https://github.com/)
+  - LinkedIn: [www.linkedin.com/in/alisha-pal-6635361b5](https://www.linkedin.com/)
+  - Email: [undefined](#)
+  
+
+ 
   

@@ -1,74 +1,91 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  if(!license){
+    return " ";
+  }else{
+
+  }
+
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  if(!license){
+    return " ";
+  }
+
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  if(!license){
+    return " ";
+  }
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   const README = `# ${data.title}
-
+  ## Project Description
   ${data.description}
-  
+
+  ## Table of Contents
+  1. [Getting Started](#getting-started)
+  2. [Installation](#Installation)
+  3. [Usage](#Usage)
+  4. [Built With](#Built-with)
+  5. [Deployed Link](#Deployed-Link)
+  6. [License](#License)
+  7. [Acknowledgments](#Acknowledgments)
+  8. [Tests](#Tests)
+  9. [Contributors](#Contributors)
+
   ## Getting Started
   
   These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
   
-  ### Prerequisites
+  ### Installation
+  ${data.installation}
   
-  ${data.prerequisite}
-  
-
-  ### Installing
-  
-  A step by step series of examples that tell you how to get a development environment running.
-  
-  Say what the step will be:
-  
-  
-  
-  And repeat
-  
- 
-  End with an example of getting some data out of the system or using it for a little demo.
-  
+  ### Usage
+  ${data.usage}
   
   ## Built With
+
+  ${data.builtWith}
   
-  * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-  * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-  * [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
   
   ## Deployed Link
   
-  * [See Live Site](#)
+  * [${data.deployLink}](#)
   
-  
-  ## Authors
-  
-  * **YOUR NAME** 
-  
-  - [Link to Portfolio Site](#)
-  - [Link to Github](https://github.com/)
-  - [Link to LinkedIn](https://www.linkedin.com/)
-  
-  See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
   
   ## License
   
-  This project is licensed under the MIT License 
+  This project is licensed under the ${data.licenses} license.
   
   ## Acknowledgments
+  ${data.acknowledgements}
+
+  ## Tests
+  ${data.tests}
   
-  * Hat tip to anyone whose code, libraries, packages, or UI was used  / inspired from
-  * Inspiration
-  * etc
+  ## Contributors
+  
+  **${data.author}** 
+  
+  - Portfolio: [${data.portfolio}](#)
+  - Github: [${data.github}](https://github.com/)
+  - LinkedIn: [${data.linkedIn}](https://www.linkedin.com/)
+  - Email: [${data.email}](#)
+  
+
+ 
   `
 
         
